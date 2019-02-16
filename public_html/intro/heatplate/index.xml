@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Motivating Example on Measure Theory in Action</title>
+    <link>localhost:1313/intro/heatplate/</link>
+    <description>Recent content in A Motivating Example on Measure Theory in Action</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="localhost:1313/intro/heatplate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vector-Valued</title>
+      <link>localhost:1313/intro/heatplate/vector-valued/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/intro/heatplate/vector-valued/</guid>
+      <description>Vector-Valued Maps We can treat each measurement individually.   We refer to the QoI map induced by this treatment as being vector-valued.</description>
+    </item>
+    
+    <item>
+      <title>Scalar-Valued</title>
+      <link>localhost:1313/intro/heatplate/scalar-valued/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/intro/heatplate/scalar-valued/</guid>
+      <description>Scalar-Valued Maps We can combine the information in some way into a single value.   We refer to the QoI map induced by this treatment as being scalar-valued.</description>
+    </item>
+    
+    <item>
+      <title>The Objective</title>
+      <link>localhost:1313/intro/heatplate/objective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/intro/heatplate/objective/</guid>
+      <description>What we&amp;rsquo;re after We want to infer the values of \(\lambda_1\)    and \(\lambda_2\)   . We want to quantify the uncertainty in our parameters.
+
+How do we use the information from our sensors to do this?</description>
+    </item>
+    
+  </channel>
+</rss>

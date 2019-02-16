@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Introduction to Bayes Rule
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../theme.css">
+    <link rel="stylesheet" href="../pygments.css">
+    <!--[if lt IE 9]>
+        <script src="../html5shiv.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body class="node-theory node">
+
+    <header id="head" class="head">
+        <input id="menu-check" type="checkbox"/>
+        <label id="menu-label" for="menu-check" class="unselectable">
+            <span class="icon close">✕</span>
+            <span class="icon open">☰</span>
+            <span class="text">MENU</span>
+        </label>
+        <ul>
+<li><a href="../">Home</a></li>
+<li><a href= "https://github.com/mpilosov/consistentbayes" target="_blank">Source</a></li>
+<li><a href="../usage/">Usage</a><ul>
+<li><a href="../usage/docs/">Documentation</a></li>
+<li><a href="../usage/examples/">Examples</a></li>
+</ul>
+</li>
+<li><a href="../about/">About</a></li>
+<li><a href =  "https://mybinder.org/v2/gh/mpilosov/consistentbayes.git/master" target="_blank">Launch Temporary Notebook</a></li>
+</ul>
+    </header>
+
+    <article id="main" class="main">
+        
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<h1>Introduction to Bayes Rule</h1>
+<p>Let $m$ be defined as the parameters.</p>
+<p>Let $y$ be defined as the observables. </p>
+<p>$$P(y,m) = P(y | m) p(m) = P(m | y) p(y)$$</p>
+<p>The expression $$P(m | y)$$ represents a "posterior density."</p>
+<p>The likelihood $$P(y | m)$$ is a statistical model for the data. A density given certain parameters. </p>
+<p>Finally, the posterior density is given by
+$$P(m | y) = \frac{P(y | m) p(m)}{p(y)} = \frac{P(y | m) p(m)}{\int P(y | m) p(m) \, dm}$$</p>
+<h2>Key differences</h2>
+<p>Frequentists do not assign probabilities to unknown parameters m. Priors and posteriors are not valid questions to ask since m is not a random variable. </p>
+<p>In the frequentist perspective, there is no single preferred methodology for inverting the relationship between parameters and data. Instead, they consider various estimators $\hat{m}(y)$ of the parameter $m$, treating them as the random variables instead. </p>
+<p>Bayesians, in treating m as a random variable, can incorporate prior beliefs into defining $m$, and allow for different conclusions to be reached. </p>
+<h2>Let us dive into an example to illustrate the differences.</h2>
+<h3>Example</h3>
+<p>Coin Flip</p>
+<p>First let us choose a naming convention. 
+$y = 1$ is heads
+$y = 0$ is tails
+Let $m$ be the Probability of heads.</p>
+<p>$$P(y_1 | m) = m^{y_1} (1-m)^{1-y_1}$$
+$$P(m) \sim \text{Beta}(\Beta_1, \Beta_2) \sim \left [m^{\Beta_1 - 1} (1-m)^{\Beta_2 - 1} \right ] I(m\in [0,1])$$</p>
+<p>$P(y_1 | m) p(m) \sim \left [ m^{y_1} (1-m)^{1-y_1} \right ] \left [m^{\Beta_1 - 1} (1-m)^{\Beta_2 - 1} \right ] I(m\in [0,1])$$</p>
+    </article>
+
+    
+
+</body>
+</html>

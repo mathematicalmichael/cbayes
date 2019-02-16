@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+        Informed and uninformed modes
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../theme.css">
+    <link rel="stylesheet" href="../pygments.css">
+    <!--[if lt IE 9]>
+        <script src="../html5shiv.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body class="node-test node">
+
+    <header id="head" class="head">
+        <input id="menu-check" type="checkbox"/>
+        <label id="menu-label" for="menu-check" class="unselectable">
+            <span class="icon close">✕</span>
+            <span class="icon open">☰</span>
+            <span class="text">MENU</span>
+        </label>
+        <ul>
+<li><a href="../">Home</a></li>
+<li><a href= "https://github.com/mpilosov/consistentbayes" target="_blank">Source</a></li>
+<li><a href="../usage/">Usage</a><ul>
+<li><a href="../usage/docs/">Documentation</a></li>
+<li><a href="../usage/examples/">Examples</a></li>
+</ul>
+</li>
+<li><a href="../about/">About</a></li>
+<li><a href =  "https://mybinder.org/v2/gh/mpilosov/consistentbayes.git/master" target="_blank">Launch Temporary Notebook</a></li>
+</ul>
+    </header>
+
+    <article id="main" class="main">
+        
+        <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<h4>Informed and uninformed modes</h4>
+<p>The functions $v_i$ ($i=1,2,3, \ldots$) form an orthonormal basis of $L^2([0,1])$.</p>
+<p>That is, every function $f \in L^2([0,1])$ can be written as</p>
+<p>$$ f = \sum_{i=1}^\infty \alpha_i v_i, \text{ where } \alpha_i = \int_0^1 f v_i dx.$$</p>
+<p>Consider now the noisy problem</p>
+<p>$$ d = \mathcal{F}\,m_{\rm true} + \eta, $$</p>
+<p>where
+<em> $d$ is the data (noisy measurements)
+</em> $\eta$ is the noise: $\eta(x) = \sum_{n=1}^\infty \eta_n v_n(x)$
+<em> $m_{\rm true}$ is the true value of the parameter that generated the data
+</em> $\mathcal{F}$ is the forward heat equation</p>
+<p>Then, the naive solution to the inverse problem $\mathcal{F}m = d$ is</p>
+<p>$$ m = \mathcal{F}^{-1}d = \mathcal{F}^{-1}\left( \mathcal{F}\,m_{\rm true} + \eta \right) = m_{\rm true} + \mathcal{F}^{-1} \eta = m_{\rm true} + \mathcal{F}^{-1} \sum_{i=1}^{\infty} \eta_i v_i = m_{\rm true} +  \sum_{i=1}^{\infty} \frac{\eta_i}{\lambda_i} v_i. $$</p>
+    </article>
+
+    
+
+</body>
+</html>

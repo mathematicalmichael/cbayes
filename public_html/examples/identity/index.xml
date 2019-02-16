@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Identity Map on Measure Theory in Action</title>
+    <link>localhost:1313/examples/identity/</link>
+    <description>Recent content in Identity Map on Measure Theory in Action</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="localhost:1313/examples/identity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Experiment 1</title>
+      <link>localhost:1313/examples/identity/luckyexperiment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/examples/identity/luckyexperiment/</guid>
+      <description>Getting Lucky    -- Please allow a moment for the animation to load.</description>
+    </item>
+    
+    <item>
+      <title>Experiment 2</title>
+      <link>localhost:1313/examples/identity/unluckyexperiment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/examples/identity/unluckyexperiment/</guid>
+      <description>Less Fortunate     --
+Please allow a moment for the animation to load.</description>
+    </item>
+    
+  </channel>
+</rss>

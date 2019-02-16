@@ -1,0 +1,295 @@
+[
+{
+	"uri": "localhost:1313/framework/disintegration/",
+	"title": "Disintegration Theorem",
+	"tags": [],
+	"description": "",
+	"content": " The Disintegration Theorem This is the powerhouse of the Measure-Theoretic framework It is leveraged to describe the probability of sets within contours, allowing for a unique solution to the stochastic inverse problem\n"
+},
+{
+	"uri": "localhost:1313/examples/setup/",
+	"title": "The Set Up",
+	"tags": [],
+	"description": "",
+	"content": " Defining the Problem $$Q(\\lambda)= \\frac{1}{M} \\sum_{i=1}^M \\left(\\frac{O_i(\\lambda)-d_i}{\\sigma_i}\\right)^2$$     The distribution of $Q(\\lambda)$\u0026rsquo;s should follow a gamma random variable with shape and rate parameters $M/2$:\n$$\\pi_{\\mathcal{D}}(q) = \\frac{(M/2)^{M/2}}{\\Gamma(M/2)} q^{M/2-1}e^{-Mq/2}$$    \nNote that the form of $\\pi_{\\mathcal{D}}(q)$ is independent of the actual time series of data that is observed.\n"
+},
+{
+	"uri": "localhost:1313/intro/heatplate/",
+	"title": "A Motivating Example",
+	"tags": [],
+	"description": "",
+	"content": " Consider the following experiment:   We heat the center of a metallic plate $\\Omega$.\n$\\Omega$ is manufactured by welding two smaller plates.\nEach plate has different (uncertain) thermal conductivities, denoted $\\lambda_1$ and $\\lambda_2$.\nWe expect the temperature profile to differ on each half.\n"
+},
+{
+	"uri": "localhost:1313/examples/identity/luckyexperiment/",
+	"title": "Experiment 1",
+	"tags": [],
+	"description": "",
+	"content": " Getting Lucky    -- Please allow a moment for the animation to load.\n"
+},
+{
+	"uri": "localhost:1313/framework/level1/",
+	"title": "Identify the Contour",
+	"tags": [],
+	"description": "",
+	"content": "   "
+},
+{
+	"uri": "localhost:1313/examples/identity/",
+	"title": "Identity Map",
+	"tags": [],
+	"description": "",
+	"content": " Example: The Identity Map \nConsider the following map $$Q(\\lambda_1, \\lambda_2) = \\{ \\lambda_1, \\lambda_2 \\}$$     \nRecall our Posterior. $$\\pi^{\\dagger}_\\Lambda(\\lambda) := \\pi_\\Lambda(\\lambda)\\frac{\\pi_{\\mathcal{D}}(Q(\\lambda))}{\\pi^{Q}_{\\mathcal{D}}(Q(\\lambda))} $$    \n\nWe assume a Gaussian Prior in addition to the assumption of Gaussian noise.\n"
+},
+{
+	"uri": "localhost:1313/measuretheory/inverse/level1/",
+	"title": "Inverting a Point",
+	"tags": [],
+	"description": "",
+	"content": "      "
+},
+{
+	"uri": "localhost:1313/measuretheory/forward/level1/",
+	"title": "Mapping a Point",
+	"tags": [],
+	"description": "",
+	"content": "   "
+},
+{
+	"uri": "localhost:1313/examples/expdecay/exp/",
+	"title": "Prior Predictive",
+	"tags": [],
+	"description": "",
+	"content": " Example: Exponential Decay   "
+},
+{
+	"uri": "localhost:1313/examples/harmosc/harm/",
+	"title": "Prior Predictive",
+	"tags": [],
+	"description": "",
+	"content": " Example: Harmonic Oscillator   "
+},
+{
+	"uri": "localhost:1313/measuretheory/forward/",
+	"title": "The Forward Problem",
+	"tags": [],
+	"description": "",
+	"content": " \n\n\u0026ldquo;What is the output for this input?\u0026rdquo; \nThe forward problem studies how input parameters impact the output values. (These outputs come from a computational model.)\nThe QoI map is the object that generates outputs given specific inputs.\n "
+},
+{
+	"uri": "localhost:1313/intro/heatplate/vector-valued/",
+	"title": "Vector-Valued",
+	"tags": [],
+	"description": "",
+	"content": " Vector-Valued Maps We can treat each measurement individually.   We refer to the QoI map induced by this treatment as being vector-valued.\n"
+},
+{
+	"uri": "localhost:1313/intro/",
+	"title": "What is a QoI Map?",
+	"tags": [],
+	"description": "",
+	"content": " The Quantity of Interest Map? Scientific experiments involve the collection of data.\nEach individual measurement is a functional acting on the state space.\n\nThe collection of data induces a Quantity of Interest Map. (We use QoI for short).\n"
+},
+{
+	"uri": "localhost:1313/problem/single/",
+	"title": "A Single Datum",
+	"tags": [],
+	"description": "",
+	"content": " A Single Datum A Distribution Does Not Make   The wrong distribution can be imposed if we center our uncertainty on just one observation.\n"
+},
+{
+	"uri": "localhost:1313/framework/level2/",
+	"title": "Define Indexing Set",
+	"tags": [],
+	"description": "",
+	"content": "   "
+},
+{
+	"uri": "localhost:1313/examples/identity/unluckyexperiment/",
+	"title": "Experiment 2",
+	"tags": [],
+	"description": "",
+	"content": " Less Fortunate     --\nPlease allow a moment for the animation to load.\n"
+},
+{
+	"uri": "localhost:1313/measuretheory/inverse/level2/",
+	"title": "Inverting a Set",
+	"tags": [],
+	"description": "",
+	"content": "   "
+},
+{
+	"uri": "localhost:1313/measuretheory/forward/level2/",
+	"title": "Mapping a Set",
+	"tags": [],
+	"description": "",
+	"content": "   "
+},
+{
+	"uri": "localhost:1313/measuretheory/",
+	"title": "Minute Measure Theory",
+	"tags": [],
+	"description": "",
+	"content": " A Brief Review of Measure Theory We go over a brief taxonomy of problems using a series of cartoons.\n"
+},
+{
+	"uri": "localhost:1313/examples/expdecay/exp_solve/",
+	"title": "Posterior Predictive",
+	"tags": [],
+	"description": "",
+	"content": " Example: Exponential Decay   "
+},
+{
+	"uri": "localhost:1313/examples/harmosc/harm_solve/",
+	"title": "Posterior Predictive",
+	"tags": [],
+	"description": "",
+	"content": " Example: Harmonic Oscillator   "
+},
+{
+	"uri": "localhost:1313/intro/heatplate/scalar-valued/",
+	"title": "Scalar-Valued",
+	"tags": [],
+	"description": "",
+	"content": " Scalar-Valued Maps We can combine the information in some way into a single value.   We refer to the QoI map induced by this treatment as being scalar-valued.\n"
+},
+{
+	"uri": "localhost:1313/measuretheory/inverse/",
+	"title": "The Inverse Problem",
+	"tags": [],
+	"description": "",
+	"content": " \n\n\u0026ldquo;Which inputs caused that output?\u0026rdquo; \nThe complement to the forward problem is the inverse problem. \n"
+},
+{
+	"uri": "localhost:1313/examples/harmosc/",
+	"title": "Harmonic Oscillator",
+	"tags": [],
+	"description": "",
+	"content": " Example: Harmonic Oscillator $$\\frac{d^2u(t)}{dt^2} = -\\lambda_2^2 u(t), \\ t\u0026gt;0, \\\\u(0) = \\lambda_1$$     \nChoosing a particular parameter $\\lambda=(\\lambda_1,\\lambda_2)\\in\\Lambda\\subset[-0.25, 0.25]\\times\\mathbb{R}^+$ corresponds to fixing an initial condition, $\\lambda_1$, and frequency of oscillation, $\\lambda_2\u0026gt;0$.\nThe solution to the above is \\begin{equation} u(t) = \\cos(\\lambda_2 t + \\arccos(\\lambda_1)). \\end{equation}\n"
+},
+{
+	"uri": "localhost:1313/measuretheory/inverse/level3/",
+	"title": "Inverting a Distribution",
+	"tags": [],
+	"description": "",
+	"content": "   "
+},
+{
+	"uri": "localhost:1313/framework/level3/",
+	"title": "Map onto Manifold",
+	"tags": [],
+	"description": "",
+	"content": "{   "
+},
+{
+	"uri": "localhost:1313/measuretheory/forward/level3/",
+	"title": "Mapping a Distribution",
+	"tags": [],
+	"description": "",
+	"content": "   "
+},
+{
+	"uri": "localhost:1313/problem/repeated/",
+	"title": "Repeated Trials",
+	"tags": [],
+	"description": "",
+	"content": " Better estimates of the distribution\u0026rsquo;s center arise from averaging over more data.    $$Q(\\lambda)= \\frac{1}{M} \\sum_{j=1}^{M}O_j$$    \nThis is how we can improve the vector-valued posterior density. "
+},
+{
+	"uri": "localhost:1313/intro/heatplate/objective/",
+	"title": "The Objective",
+	"tags": [],
+	"description": "",
+	"content": " What we\u0026rsquo;re after We want to infer the values of \\(\\lambda_1\\)    and \\(\\lambda_2\\)   . We want to quantify the uncertainty in our parameters.\n\nHow do we use the information from our sensors to do this?\n"
+},
+{
+	"uri": "localhost:1313/problem/",
+	"title": "Translating Uncertainties",
+	"tags": [],
+	"description": "",
+	"content": " Defining the correct distribution What is the proper description of the uncertainty in our measurements? Suppose we assume a known variance in our measurement equipment.\n"
+},
+{
+	"uri": "localhost:1313/problem/scalarizing/",
+	"title": "Assimilation",
+	"tags": [],
+	"description": "",
+	"content": " Repeated Trials We could instead define a misfit function as our QoI instead. This effectively turns our QoI into a scalar-valued map. \\(\\newcommand{\\lam}{(\\lambda)}\\)    \\(\\newcommand{\\qoi}{Q\\lam}\\)    $$\\qoi = \\frac{1}{M} \\sum_{i=1}^M \\left(\\frac{O_i\\lam-d_i}{\\sigma_i}\\right)^2$$    \nThis represents our average deviation from the data.\n\nWhat are the differences? "
+},
+{
+	"uri": "localhost:1313/framework/",
+	"title": "Framework",
+	"tags": [],
+	"description": "",
+	"content": " A novel measure-theoretic framework We want to identify a set on $\\Lambda$ that when mapped back through the model, matches a prescribed density.\nWe seek a pull-back measure.\n"
+},
+{
+	"uri": "localhost:1313/examples/harmosc/harm_summary/",
+	"title": "Optimal Experimental Design",
+	"tags": [],
+	"description": "",
+	"content": " How the Experiment is Performed Matters   "
+},
+{
+	"uri": "localhost:1313/examples/",
+	"title": "Examples",
+	"tags": [],
+	"description": "",
+	"content": " Examples We let \\(u\\)    denote our state space on which we perform observations \\(O_i\\)   , $$O_i(\\lambda) = u(\\lambda, t_i),$$     at times \\(t_0, t_1, \\dots t_M.\\)   \n\nData \\(d_i\\)    is collected from (normally distributed) noisy observations:\n$$d_i = O_i(\\lambda) \u0026#43; \\eta_i, $$     $$\\eta_i\\sim N(0,\\sigma_i^2)$$     "
+},
+{
+	"uri": "localhost:1313/framework/post/",
+	"title": "Posterior",
+	"tags": [],
+	"description": "",
+	"content": " A novel measure-theoretic framework Our posterior distribution is given by:\n$$\\pi^{\\dagger}_\\Lambda(\\lambda) := \\pi_\\Lambda(\\lambda)\\frac{\\pi_{\\mathcal{D}}(Q(\\lambda))}{\\pi^{Q}_{\\mathcal{D}}(Q(\\lambda))} $$     "
+},
+{
+	"uri": "localhost:1313/framework/prior/",
+	"title": "Prior",
+	"tags": [],
+	"description": "",
+	"content": " A novel measure-theoretic framework $$\\pi^{\\dagger}_\\Lambda(\\lambda) := \\pi_\\Lambda(\\lambda)\\frac{\\pi_{\\mathcal{D}}(Q(\\lambda))}{\\pi^{Q}_{\\mathcal{D}}(Q(\\lambda))} $$     \nWe use Bayes\u0026rsquo; Rule along contours.\nThe prior \\(\\pi_\\Lambda(\\lambda)\\)    plays a role only in these directions.\nIt differentiates among sets that belong to the same contour $\\sigma$-algebra.\n"
+},
+{
+	"uri": "localhost:1313/framework/observed/",
+	"title": "Observed",
+	"tags": [],
+	"description": "",
+	"content": " A novel measure-theoretic framework $$\\pi^{\\dagger}_\\Lambda(\\lambda) := \\pi_\\Lambda(\\lambda)\\frac{\\pi_{\\mathcal{D}}(Q(\\lambda))}{\\pi^{Q}_{\\mathcal{D}}(Q(\\lambda))} $$     Across contours, we invert $$\\pi_{\\mathcal{D}}(Q(\\lambda)).$$    \nThe term \\(\\pi^{Q}_{\\mathcal{D}}(Q(\\lambda))\\)    is called the push-forward measure of the prior.\nCharacterizing this measure is unique to our approach for solving stochastic inverse problems.\n"
+},
+{
+	"uri": "localhost:1313/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "localhost:1313/conclusion/",
+	"title": "Conclusion",
+	"tags": [],
+	"description": "",
+	"content": " Putting it Together We have multiple ways of solving an inverse problem. More comparisons are necessary.\nWe are in the process of generalizing the Measure-Theoretic Approach. Need to apply it to a larger-scale problem, compare to existing methods from statistics.\n"
+},
+{
+	"uri": "localhost:1313/",
+	"title": "Consistent Bayes",
+	"tags": [],
+	"description": "",
+	"content": " Consistent Bayes A novel measure-theoretic framework \n$$\\pi^{\\dagger}_\\Lambda(\\lambda) := \\pi_\\Lambda(\\lambda)\\frac{\\pi_{\\mathcal{D}}(Q(\\lambda))}{\\pi^{Q}_{\\mathcal{D}}(Q(\\lambda))} $$     "
+},
+{
+	"uri": "localhost:1313/conclusion/questions/",
+	"title": "Future Work",
+	"tags": [],
+	"description": "",
+	"content": " Future Work How much information is gained from measurement regimes? How to define QoI under non-Gaussian assumptions? How can we set up optimal experimental designs? Sensitivity Analysis (in progress)\n"
+},
+{
+	"uri": "localhost:1313/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
