@@ -1,0 +1,18 @@
+baseURL = "localhost:1313"
+# languageCode = "en-US"
+# defaultContentLanguage = "en"
+title = "Measure Theory in Action"
+theme = "hugo-theme-learn"
+themesdir = "./themes"
+metaDataFormat = "yaml"
+# defaultContentLanguageInSubdir= false
+
+[params]
+  editURL = ""
+  description = ""
+  author = "Michael Pilosov"
+  showVisitedLinks = true
+  disableLanguageSwitchingButton = true
+  
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
