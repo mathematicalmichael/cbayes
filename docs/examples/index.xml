@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Examples on Measure Theory in Action</title>
+    <link>localhost:1313/examples/</link>
+    <description>Recent content in Examples on Measure Theory in Action</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="localhost:1313/examples/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Set Up</title>
+      <link>localhost:1313/examples/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/examples/setup/</guid>
+      <description>Defining the Problem $$Q(\lambda)= \frac{1}{M} \sum_{i=1}^M \left(\frac{O_i(\lambda)-d_i}{\sigma_i}\right)^2$$     The distribution of $Q(\lambda)$&amp;rsquo;s should follow a gamma random variable with shape and rate parameters $M/2$:
+$$\pi_{\mathcal{D}}(q) = \frac{(M/2)^{M/2}}{\Gamma(M/2)} q^{M/2-1}e^{-Mq/2}$$    
+Note that the form of $\pi_{\mathcal{D}}(q)$ is independent of the actual time series of data that is observed.</description>
+    </item>
+    
+    <item>
+      <title>Prior Predictive</title>
+      <link>localhost:1313/examples/expdecay/exp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/examples/expdecay/exp/</guid>
+      <description> Example: Exponential Decay   </description>
+    </item>
+    
+    <item>
+      <title>Posterior Predictive</title>
+      <link>localhost:1313/examples/expdecay/exp_solve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost:1313/examples/expdecay/exp_solve/</guid>
+      <description> Example: Exponential Decay   </description>
+    </item>
+    
+  </channel>
+</rss>
